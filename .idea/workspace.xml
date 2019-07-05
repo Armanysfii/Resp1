@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f9bbd94-879d-4e20-9aca-d1828be7a116" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MachineLearning/Unsupervised/KMeans.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearning/Unsupervised/KMeans.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MachineLearning/Unsupervised/Hierarchical.py" beforeDir="false" afterPath="$PROJECT_DIR$/MachineLearning/Unsupervised/Hierarchical.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +13,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MachineLearning/Unsupervised/KMeans.py">
+        <entry file="file://$PROJECT_DIR$/MachineLearning/Unsupervised/DBScan.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+            <state relative-caret-position="275">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -40,7 +40,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/db/read.py" />
         <option value="$PROJECT_DIR$/db/insert.py" />
         <option value="$PROJECT_DIR$/db/update.py" />
         <option value="$PROJECT_DIR$/db/delete.py" />
@@ -89,6 +88,9 @@
         <option value="$PROJECT_DIR$/Faradars/classification_roc.py" />
         <option value="$PROJECT_DIR$/Faradars/Unsupervised/KMeans.py" />
         <option value="$PROJECT_DIR$/MachineLearning/Unsupervised/KMeans.py" />
+        <option value="$PROJECT_DIR$/MachineLearning/Unsupervised/Hierarchical.py" />
+        <option value="$PROJECT_DIR$/MachineLearning/Unsupervised/Meanshift.py" />
+        <option value="$PROJECT_DIR$/MachineLearning/Unsupervised/DBScan.py" />
       </list>
     </option>
   </component>
@@ -117,18 +119,6 @@
               <item name="data_analisys" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_analisys" type="462c0819:PsiDirectoryNode" />
               <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_analisys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_analisys" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_analisys" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_analisys" type="462c0819:PsiDirectoryNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Supervised" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data_analisys" type="b2602c69:ProjectViewProjectNode" />
@@ -167,7 +157,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.KMeans">
+  <component name="RunManager" selected="Python.DBScan">
+    <configuration name="DBScan" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_analisys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MachineLearning/Unsupervised" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearning/Unsupervised/DBScan.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Hierarchical" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_analisys" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MachineLearning/Unsupervised" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearning/Unsupervised/Hierarchical.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="KMeans" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_analisys" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,7 +221,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="classificationMetrics_confusionMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Meanshift" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_analisys" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -197,11 +229,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Faradars" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MachineLearning/Unsupervised" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\mahdi\PycharmProjects\data_analisys\Faradars\Supervised\classification_confusionMatrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MachineLearning/Unsupervised/Meanshift.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,55 +263,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="classification_roc" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_analisys" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Faradars" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\mahdi\PycharmProjects\data_analisys\Faradars\Supervised\classification_roc.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ridgeRegression" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_analisys" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Faradars" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\mahdi\PycharmProjects\data_analisys\Faradars\Supervised\ridgeRegression.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.DBScan" />
+        <item itemvalue="Python.Meanshift" />
+        <item itemvalue="Python.Hierarchical" />
         <item itemvalue="Python.KMeans" />
         <item itemvalue="Python.classification_logisticRegression" />
-        <item itemvalue="Python.classification_roc" />
-        <item itemvalue="Python.classificationMetrics_confusionMatrix" />
-        <item itemvalue="Python.ridgeRegression" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +299,7 @@
     <frame x="-7" y="23" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15862525" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15862525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -359,15 +349,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/comp.py" />
-    <entry file="file://C:/python37/Lib/keyword.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calcu.py" />
     <entry file="file://$PROJECT_DIR$/googleapi/pythonmap.html" />
     <entry file="file://$PROJECT_DIR$/googleapi/mapgenerator.py" />
     <entry file="file://C:/python37/Lib/site-packages/pandas/io/excel.py">
@@ -684,8 +665,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MachineLearning/Unsupervised/KMeans.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MachineLearning/Unsupervised/Hierarchical.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MachineLearning/Unsupervised/Meanshift.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="9" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MachineLearning/Unsupervised/DBScan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>
