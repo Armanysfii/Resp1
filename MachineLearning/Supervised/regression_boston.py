@@ -14,7 +14,8 @@ df_boston['Price'] = boston.target
 
 x = boston.data
 y = boston.target
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3, random_state=42)
+x_train, x_test, y_train, y_test =\
+    train_test_split(x, y, test_size=0.3, random_state=42)
 
 reg = LinearRegression()
 reg.fit(x_train, y_train)

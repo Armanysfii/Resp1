@@ -15,12 +15,8 @@ ms.fit(x)
 labels = ms.labels_
 centroids = ms.cluster_centers_
 
+print(labels.shape)
 plt.scatter(iris.data[:, 0], iris.data[:, 2], c=labels)
 plt.scatter(centroids[:, 0], centroids[:, 2], marker='X',
             s=180, linewidths=5)
-plt.show()
-
-
-
-
-
+# plt.show()

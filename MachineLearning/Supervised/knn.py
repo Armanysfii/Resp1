@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from pandas.plotting import scatter_matrix
 from sklearn import datasets
 from sklearn.neighbors import KNeighborsClassifier
 
